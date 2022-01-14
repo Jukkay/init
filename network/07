@@ -1,0 +1,1 @@
+dig @8.8.8.8 who.int | awk '/^who.int/ {print $5}'
