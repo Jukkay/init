@@ -1,1 +1,1 @@
-sudo scutil --set ComputerName <new name>
+sudo hostnamectl set-hostname <new host name>

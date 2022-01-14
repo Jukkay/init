@@ -1,0 +1,6 @@
+#who -s
+getent passwd {1000..60000} | cut -d " " -f1 | while read user
+do
+echo $user
+done
+#deluser -r -f

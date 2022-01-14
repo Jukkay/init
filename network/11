@@ -1,1 +1,2 @@
-194.136.126.33
+Find the last internal IP address in the list. In this case that's "nat (10.60.1.1)" on row 2.
+If no NAT is in use, it's the public IP address assigned to you.
