@@ -1,6 +1,4 @@
-#who -s
-getent passwd {1000..60000} | cut -d " " -f1 | while read user
+who -s | cut -d " " -f1 | while read user
 do
-echo $user
+	sudo deluser --remove-all-files $user
 done
-#deluser -r -f
